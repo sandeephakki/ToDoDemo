@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch localhost",
+            "url": "http://localhost/index.html",
+            "webRoot": "${workspaceRoot}/"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "launch to Chrome",
+            "sourceMaps": false,
+            "file": "${workspaceRoot}/index.html"
+        }
+    ]
+}
